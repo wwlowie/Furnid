@@ -1,0 +1,212 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+/* [CSS for HEADER] */
+#header {
+    position:absolute;
+    margin: 0;
+    width: 100vw;
+}
+
+.logo {
+    position: relative; 
+    text-align:center;
+    padding: 5px 0px 10px 0px;
+    background-color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a { /* a for all*/
+    text-decoration: none;
+}
+
+/* masuk logo */
+a#logo {
+    color:black;
+}
+
+#mainlogo {
+    letter-spacing: 10px;
+    font-size: 350%;
+}
+
+#logo-slogan {
+    word-spacing: 1px;
+    font-size: 70%;
+}
+
+.logo:hover {
+    text-shadow: 1px 3px 3px #C8BB9A;
+    transition: 500ms;
+}
+
+/* masuk bawahny nav bar hori */
+.menubar {
+    background-color: #C8BB9A;
+}
+
+.searchbar input#srch {
+    position: relative;
+    top: 12px;
+    width: 130%;
+    height: 28px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.searchbar input#srch:hover {
+    background-color: #3F3620;
+    transition: 300ms;
+}
+
+.searchbar button {
+    position: relative;
+    left: 220px;
+    top: -18px;
+    border: none;
+    background: none;
+}
+
+.searchbar button:hover {
+    cursor: pointer;
+    color: #251d0a;
+    transition: 150ms;
+}
+
+
+.menubar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menubar a{
+    color:white
+}
+
+.menubar a:hover {
+    color: #3F3620;
+    transition: 400ms;
+}
+/* [HEADER ENDS] */ 
+
+/* [LOG IN */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    background: white;
+}
+
+.formlog {
+    box-shadow: 2px 2px 5px 5px rgba(195, 183, 128, 0.364);
+    border-radius: 10px;
+    padding: 10px 50px 50px 50px;
+    align-items: center;
+}
+
+.form .login h1 {
+    text-align: center;
+    margin: 10px 0px 20px;
+    color: #8C6F55;
+    font-size: 35px;
+}
+
+.form .login .formcontent {
+    margin: 15px 0px;
+    text-align: left;
+}
+
+.form .formlog .login .formcontent input#email, .form .formlog .login .formcontent input#password {
+    margin-top: 5px;
+    width: 62%;
+    padding: 5px;
+    outline: none;
+    background-color: #D9D9D9;
+    color: #817860;
+    border: none;
+    border-radius: 5px;
+}
+
+.form .login .formcontent a {
+    color: #837D6E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form .login .formcontent a:hover {
+    color: #0051ff;
+    transition: 300ms;
+}
+
+.form .formlog .login .formcontent ul {
+    list-style: none;
+}
+
+.form .formlog .login .formcontent li {
+    margin-bottom: 10px;
+}
+
+
+.form .login .formcontent button {
+    position: relative;
+    left: 20px;
+    width: 50%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    color: #837D6E;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.form .login .formcontent button:hover {
+    background: #8C6F55;
+    color: white;
+    transition: 250ms;
+}
+
+/* [FOOTER] */
+.page-wrapper {
+    height: 50vh;
+}
+
+#footer {
+    top: 100%;
+    position: sticky;
+    background: #ACA491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer li {
+    list-style: none;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: #3F3620;
+    transition: 300ms;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrationform.css">
+    <title>Registration Form | FURNID</title>
+</head>
+<body>
+   <!-- [HEADER] -->
+   <div id="header">
+    <div class="logo">
+        <a href="homepage.html" id="logo">
+            <div id="mainlogo">
+                FURNID
+            </div>
+
+            <div id="logo-slogan">
+                Your best choice for your home
+            </div>
+        </a>
+    </div>
+
+
+    <div class="menubar">
+        <ul>
+            <li>
+                <a href="homepage.html">Home</a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li>
+            <li>
+                <div class="searchbar">
+                    <form action="">
+                        <input type="text" name="search" id="srch" placeholder="What are you looking for?">
+                        <button type="submit">search</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <a href="help.html">Help</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="login.html">Log In</a>
+            </li>
+        </ul>
+    </div>
+    <!-- [HEADER END] -->
+
+    <!-- [REGISTRATION] -->
+    <div id="regform">
+        <h2>REGISTRATION FORM</h2>
+        <form action="GET">
+            <div>
+                <label for="fullname">Fullname:</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter full name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email (@sunib.com)">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <label for="choices">Age:</label>
+                <select name="choices" id="choices">
+                    <option value="option1">>18</option>
+                    <option value="option2">18-30</option>
+                    <option value="option3">30-40</option>
+                    <option value="option4">40-50</option>
+                    <option value="option5">50<</option>
+                </select>
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Your Username">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Your Password">
+            </div>
+            <div>
+                <a href="termncondi.html">Read terms and conditions</a> <br>
+                <input type="checkbox" name="termsncondi" id="termsncondi">
+                <label for="termncondi">I agree to the terms and conditions</label>
+            </div>
+            <button type="button" onclick="validateForm()">Register</button>
+        </form>
+    </div>   
+
+    <!-- [REGISTRATION END] -->
+    <div class="pagewrapper">
+
+    </div>
+
+    <!--[FOOTER]-->
+    <div id="footer">
+        <ul id="footerlist">
+            <li><h2>FURNID</h2></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li><a href="help.html">HELP</a></li>
+            <li><a href="termncondi.html">TERMS & CONDITIONS</a></li>
+            <li><a href="ShipnRe.html">SHIPPING & RETURNS</a></li>
+            <li>Twitter: <a href="https://twitter.com/?lang=en">FURNID_CO</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/instagram/">FURNID</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/facebook/">FURNID.CO</a></li>
+            <br>
+            <li>&copy | FURNID.com by Gritachi Kayna Susilo</li>
+        </ul>
+    </div>
+    <!--[FOOTER DONE]-->
+</body>
+</html>
